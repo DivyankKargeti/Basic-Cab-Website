@@ -1,0 +1,125 @@
+body{
+	background-color:	#e7d3ef;
+	color: #555;
+	font-family: Arial;
+	font-size:16px;
+	line-height: 1.6em;
+	margin: 0; 
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+ 
+#main-header{
+	background-color:#635400;
+	color:#f4f4f4;
+	font-family:serif;
+	border-radius:20px;
+}
+#navbar{
+	background-color:#323232;
+	color:#fff;
+	background-color:#3b241e ;
+	border-radius:20px;
+
+}
+#navbar ul{
+	padding:0;
+	list-style:none; 
+	
+}
+#navbar li{
+	display:inline;
+	
+}
+#navbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:50px;
+}
+
+#showcase{
+	background-image:url('imgs/1920.jpg');
+	background-position:center center ; 
+	margin-bottom:30px;
+	text-align: right;
+	border-radius:20px;
+}
+#showcase{
+	color:	#2b0808;
+	font-size:50px;
+	line-height:1.4em;
+	padding-top:30px;
+	font-family:flat serif;
+}
+
+#main{
+	float:right;
+	width:70%;
+	padding:0 30px;
+	box-sizing:border-box;
+}
+#sidebar{
+	float:left;
+	width:30%;
+	background:#3b241e;
+	color:#fff;
+	box-sizing: border-box;
+
+	}
+
+#sidebar input[type="SUBMIT"]{
+     background-color:#FF4500;
+     color:#fff;
+     padding:10px 15px;
+     border-radius:15px;
+     }
+
+#sidebar{
+	display:block;
+}
+
+#sidebar input[type="password"]{
+	padding:8px;
+	width:80%;
+}
+#sidebar input[values="e-mail"]{
+	padding:8px;
+	width:80%;
+}
+
+#sidebar{
+	padding:20px;
+	border-radius:30px;
+}
+
+
+#main-footer{
+	background:#635400;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:30px;
+	border-radius:20px;
+	
+}
+
+
+
+
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+	#sidebar{
+		width:100%;
+		float:none;
+		
+	}
+}
